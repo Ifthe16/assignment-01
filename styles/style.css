@@ -79,3 +79,27 @@ nav{
 iframe{
     border-radius: 16px;
 }
+
+/* support section */
+
+
+/* footer styles */
+
+strong{
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 150px 32px 150px;
+}
+
+footer > ul{
+    display: flex;
+}
+
+footer > ul > li{
+    list-style: none;
+    margin-right: 24px;
+}
