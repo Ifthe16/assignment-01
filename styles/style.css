@@ -19,9 +19,18 @@ nav{
     
 }
 
+nav button:hover{
+    color: lightgrey;
+    cursor: pointer;
+}
+
 /* shared style */
 .text-primary{
     color: rgba(13, 19, 33, 1);
+    
+}
+.text-secondary{
+    color: rgba(255, 255, 255, 1);
 }
 
 .btn-primary{
@@ -31,6 +40,7 @@ nav{
     padding: 17px 24px;
     font-size: 20px;
     margin: 38px 150px 36px 0;
+    border: 1px solid;
 
 }
 .btn-secondary{
@@ -40,6 +50,7 @@ nav{
     padding: 21px 24px;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }
 .nav-title{
     font-weight: 800;
@@ -61,18 +72,23 @@ nav{
 }
 
 .hero{
-    display: block;
-    padding: 26px 221px 44px 221px;
+    text-align: center;
+    padding: 26px 221px 44px;
 }
 
-
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* section styles */
-
 .container{
     background-color: rgba(13, 19, 33, 0.02);
-    margin: 74px 152px 90px 152px;
+    margin: 74px 0 90px 0;
     border-radius: 16px;
+    padding: 80px 97px;
+    text-align: center;
 }
 
 
@@ -80,7 +96,67 @@ iframe{
     border-radius: 16px;
 }
 
+/* skills section */
+.current-target{
+   text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
 /* support section */
+
+#support{
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 49px 150px 80px 150px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.support-container{
+    padding: 64px 48px;
+}
+
+section > h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+section > p{
+    font-size: 16px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.feedback{
+    background-color: white;
+    border-radius:8px;
+    border: none;
+    padding: 5px;
+}
+
+.feedback-btn{
+    background-color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 17px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.feedback-submit:hover{
+    color: lightgray;
+}
 
 
 /* footer styles */

@@ -35,11 +35,13 @@
 
                 <h1 class="banner-title">"In the near <span class="averia-gruesa-libre-regular">future</span>, I hope to
                     become a Developer."</h1>
+                    <br>
                 <p class="banner-description">I am an enthusiastic and motivated individual currently on the path to
                     becoming a web developer. My journey includes learning key programming languages, understanding web
                     design principles, and building practical projects to hone my skills. I am excited to contribute to
                     innovative web solutions and bring creative ideas to life in the digital world.</p>
-                <button class="btn-secondary">Contact with me</button>
+                    <br>
+                <a href="#support"><button class="btn-secondary">Contact with me</button></a>
             </div>
         </div>
 
@@ -51,7 +53,7 @@
             <div>
                 <h2>Why Web Development??</h2>
                 <p>Web development is a dynamic field that blends creativity and technical skills. It offers
-                    opportunities to build engaging websites and applications that reach a global audience. </p>
+                    opportunities to build engaging websites and applications that reach a global audience.</p>
             </div>
 
             <section>
@@ -103,45 +105,48 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>My Current Target</h2>
-                <p>My current target is to become a proficient web developer. I am mastering HTML, CSS, and JavaScript, and building practical projects to apply my skills. My goal is to create innovative, user-friendly web solutions and make a positive impact in the digital world.</p>
-            </div>
+        <section class="current-target">
+            <h2>My Current Target</h2>
+            <p>My current target is to become a proficient web developer. I am mastering HTML, CSS, and JavaScript, and building practical projects to apply my skills. My goal is to create innovative, user-friendly web solutions and make a positive impact in the digital world.</p>
+            
 
-            <div>
+            <div class="skills-container">
                 <div>
                     <img src="assets/html.png" alt="html icon">
-                    <h4>HTML</h4>
+                    <h3>HTML</h3>
                     <p>By learning HTML, I am gaining the skills to structure web content effectively. This includes understanding the use of various tags and elements to create headings, paragraphs, lists, links, images, and forms. Each HTML element has a specific role, contributing to the overall functionality and accessibility of a web page.</p>
                     <a href="">Learn More</a>
                 </div>
                 <div>
                     <img src="assets/css.png" alt="css icon">
-                    <h4>CSS</h4>
+                    <h3>CSS</h3>
                     <p>CSS is the technology that brings life to HTML structures by controlling the presentation and layout of web pages. By learning CSS, I am acquiring the skills to style and layout web content effectively. This includes understanding selectors, properties, and values to apply styles to HTML elements. With CSS, I can control everything from colors, fonts, and spacing to positioning and responsiveness.</p>
                     <a href="">Learn More</a>
                 </div>
                 <div>
                     <img src="assets/js.png" alt="javascript icon">
-                    <h4>JavaScript</h4>
+                    <h3>JavaScript</h3>
                     <p>JavaScript is a powerful programming language that enables interactivity and dynamic behavior on web pages. It allows me to create responsive user interfaces, manipulate web content in real-time, and build complex web applications. By learning JavaScript, I am equipping myself with the skills to add interactivity to web pages. With JavaScript, I can handle user events, validate form inputs, and dynamically update the content without requiring a page reload.</p>
                     <a href="">Learn More</a>
                 </div>
             </div>
         </section>
 
-        <section class="support">
-            <div>
-                <h2>I need Support</h2>
-                <p>In my journey to become proficient in web development, I rely on mentorship, community engagement, learning resources, practical experience, emotional encouragement, and continuous learning to overcome challenges and achieve my goals effectively.</p>
+        <!-- This is support section -->
+        <section id="support">
+            <div class="support-container">
+                <h2 class="text-secondary">I need Support</h2>
+                <br>
+                <p class="text-secondary">In my journey to become proficient in web development, I rely on mentorship, community engagement, learning resources, practical experience, emotional encouragement, and continuous learning to overcome challenges and achieve my goals effectively.</p>
+                <br>
                 <form>
-                <input type="text" name="" id="" placeholder="Suggest me any feedback for me">
-                    <input type="submit" value="Submit">
-                </form>
                
-                
+                <textarea class="text-primary feedback" placeholder="Suggest me any feedback for me" cols="50" rows="3"></textarea>
+                <input class="text-primary feedback-btn feedback-submit" type="submit" value="Submit">
+                </form>
             </div>
+                
+            
         </section>
     </main>
 
